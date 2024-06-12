@@ -40,6 +40,19 @@
     <Reference Include="Main">
       <HintPath>D:\SteamLibrary\steamapps\common\FOUNDRY\foundry_Data\Managed\Main.dll</HintPath>
     </Reference>
+    <Reference Include="Rewired">
+      <HintPath>D:\SteamLibrary\steamapps\common\FOUNDRY\foundry_Data\Managed\Rewired.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\SteamLibrary\steamapps\common\FOUNDRY\foundry_Data\Managed\Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows">
+      <HintPath>D:\SteamLibrary\steamapps\common\FOUNDRY\foundry_Data\Managed\Rewired_Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows_Functions">
+      <HintPath>D:\SteamLibrary\steamapps\common\FOUNDRY\foundry_Data\Managed\Rewired_Windows_Functions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

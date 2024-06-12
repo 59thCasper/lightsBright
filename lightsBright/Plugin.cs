@@ -5,6 +5,7 @@ using System.Reflection;
 using Unfoundry;
 using C3;
 using C3.ModKit;
+using Rewired;
 
 namespace lightsBright
 {
@@ -82,10 +83,12 @@ namespace lightsBright
                 if (Input.GetKeyDown(Plugin.increaseIntensityKey.Get()))
                 {
                     IncreaseIntensity();
+                    spotlightIntensity.Set(currentSpotlightIntensity);
                 }
                 if (Input.GetKeyDown(Plugin.decreaseIntensityKey.Get()))
                 {
                     DecreaseIntensity();
+                    spotlightIntensity.Set(currentSpotlightIntensity);
                 }
             }
 
